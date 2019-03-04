@@ -1,8 +1,7 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+<template lang="pug">
+  .wrapper
+    #app
+      h1 Hello
 </template>
 
 <script>
@@ -11,13 +10,9 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="stylus">
+  #app
+    padding 30px
+    background-color #333
+    color #fff
 </style>
