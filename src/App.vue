@@ -1,18 +1,29 @@
 <template lang="pug">
   .wrapper
-    #app
-      h1 Hello
+    header
+      .navbar
+        .container
+          .navbar-content
+            a.header-logo(href='') Film library
+            .button-burger
+              span.line.line-1
+              span.line.line-2
+              span.line.line-3
+            .navbar-list__wrapper
+              ul.navbar-list
+                li.navbar-item
+                  a.navbar-link(href='') Documetation
+
+    .content-wrapper
 </template>
 
 <script>
+
 export default {
   name: 'App'
 }
 </script>
 
 <style lang="stylus">
-  #app
-    padding 30px
-    background-color #333
-    color #fff
+@import './assets/stylus/main.styl'
 </style>
