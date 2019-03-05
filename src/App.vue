@@ -37,6 +37,7 @@ export default {
       menuShow: false,
       linkMenu: [
         {title: 'Home', url: '/'},
+        {title: 'Task', url: '/task'},
         {title: 'Login', url: '/login'},
         {title: 'Registration', url: '/registration'}
       ]
